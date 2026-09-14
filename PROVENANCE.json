@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "CMP-ISAAC-003",
+  "artifact_name": "Security Genome Reactor",
+  "state": "PUBLIC_MIT_RELEASE",
+  "discovery_lane": "harvest_repo_direct_semantic",
+  "approved_by": "Kenneth E. Sweet Jr.",
+  "upstream": {
+    "repository": "conard0-git/targeted-nessus-scan",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 Isaac Conard",
+    "archive_sha256": "0e40ebed2e7fa7e56fa4c9855f97b7fe37c4bade1b975edbd8c635b01a33b439",
+    "source_digest_algorithm": "SHPBL-SOURCE-DIGEST/1",
+    "source_digest": "2ec34cf6270cdb9172e8d15e5410481dd570463ba66ed5b724b39c2547b0f67d",
+    "blob_count": 6,
+    "bytes": 20777,
+    "literal_implementation_reuse": false,
+    "host_capability_evidence": [
+      {
+        "capability": "Normalize vulnerability/compliance results",
+        "path": "SKILL.md",
+        "lines": "64-68"
+      },
+      {
+        "capability": "Cloud tag → IP → Nessus agent correlation",
+        "path": "SKILL.md",
+        "lines": "94-100"
+      },
+      {
+        "capability": "Exact target groups",
+        "path": "SKILL.md",
+        "lines": "55-60"
+      },
+      {
+        "capability": "Named scan policy selection",
+        "path": "references/scanning-and-reporting.md",
+        "lines": "15-18"
+      },
+      {
+        "capability": "Persistent profile assignment across managers",
+        "path": "SKILL.md",
+        "lines": "88-100,128-135"
+      }
+    ]
+  },
+  "shpbl_parents": [
+    "crown-jewel|FORGE::createGenesisReactor|572a29a8985342fe",
+    "crown-jewel|EVOLUTION::createMutationEngine|d00f3debc38e7e98",
+    "crown-jewel|EVOLUTION::evaluateFitness|d8071bef4548ec5a",
+    "crown-jewel|EVOLUTION::evolve|965097cda2f9ff4b",
+    "crown-jewel|BRAIN::extractPatterns|9515bf7955e3e130",
+    "crown-jewel|VISION::createAnomalyCorrelator|aecee4038109fc23",
+    "crown-jewel|ECHO::createMutationRehearsalEngine|793f191c3e86b64d",
+    "primitive|SHADOW::analyzeDivergence|18c3a6b826edee2f"
+  ],
+  "shpbl_body_copy": false,
+  "implementation_origin": "fresh implementation from approved capability contract",
+  "literal_code_mix": {
+    "upstream_percent": 0,
+    "shpbl_body_percent": 0,
+    "fresh_implementation_percent": 100
+  },
+  "endorsement_implied": false,
+  "public_release": {
+    "state": "PUBLIC_MIT_RELEASE",
+    "repository": "https://github.com/SweetKenneth/shpbl-security-genome-reactor",
+    "version": "1.0.0",
+    "outbound_license": "MIT",
+    "copyright_holder": "Kenneth E. Sweet Jr.",
+    "upstream_repository_url": "https://github.com/conard0-git/targeted-nessus-scan",
+    "upstream_license_observed": "MIT",
+    "literal_upstream_lines_copied": 0,
+    "literal_shpbl_capability_bodies_copied": 0,
+    "shpbl_method": "https://shpbl.com",
+    "endorsement_implied": false,
+    "tenable_status": "submitted for review; no approval or endorsement claimed"
+  },
+  "claim_ceiling": "Public MIT release, Copyright (c) 2026 Kenneth E. Sweet Jr. Submitted to the Tenable CyberAgents Exchange for review; no Tenable review, approval, certification, endorsement or acceptance is claimed, and no endorsement by the upstream author is implied."
+}
