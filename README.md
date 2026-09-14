@@ -99,7 +99,8 @@ Attribution does not imply endorsement by Isaac Conard (conard0-git), Tenable, o
 
 ## Tenable status
 
-Submitted to the Tenable CyberAgents Exchange for review. Submission does not imply review, approval, certification, validation, endorsement or acceptance by Tenable.
+Submitted to the Tenable CyberAgents Exchange for review on September 14, 2026 — [pull request #173](https://github.com/tenable/cyberagents-exchange/pull/173).
+Submission does not imply review, approval, certification, validation, endorsement or acceptance by Tenable.
 
 ## Files
 

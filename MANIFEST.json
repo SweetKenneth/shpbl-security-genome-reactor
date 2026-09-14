@@ -5,12 +5,13 @@
   "license": "MIT",
   "copyright": "Copyright (c) 2026 Kenneth E. Sweet Jr.",
   "file_count": 18,
-  "checksums_sha256_root": "5f96a5236ceed5320ccf96cfb261573d962086ffa636a74a3e69df26eb9564c3",
+  "checksums_sha256_root": "3018e5c57b5acbb4959d2936ab618e5cfe187aa31603539fffb16c977b3b5c9e",
   "verification": {
     "tests_passed": 39,
     "tests_failed": 0,
     "hammer": "{\"hammer\":\"PASS\",\"cases\":30000,\"checks\":420000,\"seed\":638955405}",
     "security_scan": "security scan PASS: 5 runtime source files, 0 forbidden network/filesystem/process/dynamic-eval surfaces",
     "runtime_dependencies": 0
-  }
+  },
+  "tenable_pull_request": "https://github.com/tenable/cyberagents-exchange/pull/173"
 }
